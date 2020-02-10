@@ -1,10 +1,7 @@
 fn main() {
-    let condition = true;
-    let number = if condition {
-        5
-    } else {
-        6
-    };
+    let a = [10, 20, 30, 40, 50];
 
-    println!("The value of number is: {}", number);
+    for element in a.iter() {
+        println!("the value is: {}", element);
+    }
 }
